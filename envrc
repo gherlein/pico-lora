@@ -1,0 +1,6 @@
+export PICO_EXTRAS_PATH=$HOME/pico/pico-extras
+export PICO_SDK_PATH=$HOME/pico/pico-sdk
+export PICO_BOARD=pico
+#export PICO_BOARD=pico_w
+export PICO_PLAYGROUND_PATH=$HOME/pico/pico-playground
+export PICO_EXAMPLES_PATH=$HOME/pico/pico-examples

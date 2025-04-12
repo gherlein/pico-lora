@@ -1,0 +1,30 @@
+SUBSYSTEM=="usb", \
+    ATTRS{idVendor}=="2e8a", \
+    ATTRS{idProduct}=="0003", \
+    TAG+="uaccess" \
+    MODE="666", \
+    GROUP="plugdev"
+SUBSYSTEM=="usb", \
+    ATTRS{idVendor}=="2e8a", \
+    ATTRS{idProduct}=="0009", \
+    TAG+="uaccess" \
+    MODE="666", \
+    GROUP="plugdev"
+SUBSYSTEM=="usb", \
+    ATTRS{idVendor}=="2e8a", \
+    ATTRS{idProduct}=="000a", \
+    TAG+="uaccess" \
+    MODE="666", \
+    GROUP="plugdev"
+SUBSYSTEM=="usb", \
+    ATTRS{idVendor}=="2e8a", \
+    ATTRS{idProduct}=="000f", \
+    TAG+="uaccess" \
+    MODE="666", \
+    GROUP="plugdev"
+SUBSYSTEM=="usb", \
+    ATTRS{idVendor}=="2e8a", \
+    ATTRS{idProduct}=="000c", \
+    TAG+="uaccess" \
+    MODE="666", \
+    GROUP="plugdev"
